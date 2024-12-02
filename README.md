@@ -1,27 +1,16 @@
 # CurrencyConv
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.6.
+Amoutn input
+SOurce currency Dropdown
+Target Currency Dropdown 
+List of currencies 
+List of exchance rates based on currency
 
-## Development server
+# If user enter amoutn we shold displat the conversion maoutn like fllows
+1 USD equals to 0.8 EUR
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+# Default amoutn should be 1, USD curreency as default for Soruce dropdown and EUR for target dropdown
 
-## Code scaffolding
+# Any time any of the 3 inputs changes, amount, src, target - we should display updated results
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+# converted amoutn should be 2 fractional decimal points
